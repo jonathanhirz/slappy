@@ -1,0 +1,11 @@
+{
+    "name": "slappy",
+    "url": "",
+    "license": "",
+    "tags": ["slappy"],
+    "description": "slappy",
+    "version": "0.0.1",
+    "releasenote": "initial",
+    "contributors": [ "Jonathan Hirz" ],
+    "dependencies": {}
+}
