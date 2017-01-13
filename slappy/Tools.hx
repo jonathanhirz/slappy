@@ -2,6 +2,7 @@ package slappy;
 
 class Tools {
 
+    // convert Bool (true/false) to Int (1/0)
     static inline public function BoolToInt(_bool:Bool):Int {
         
         if(_bool == true) return 1;
