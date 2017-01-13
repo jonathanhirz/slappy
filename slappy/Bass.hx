@@ -1,6 +1,6 @@
 package slappy;
 
-class Tools {
+class Bass {
 
     // convert Bool (true/false) to Int (1/0)
     static inline public function BoolToInt(_bool:Bool):Int {
@@ -11,4 +11,4 @@ class Tools {
 
     } //BoolToInt
 
-} //Tools
+} //Bass
