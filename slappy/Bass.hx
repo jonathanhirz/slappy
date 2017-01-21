@@ -14,7 +14,7 @@ class Bass {
 
     } //bool_to_int
 
-    function tiled_tile_has_property( _tilemap:TiledMap, _layer:String, _position_x:Float, _position_y:Float, _property:String ) : Bool {
+    static inline public function tiled_tile_has_property( _tilemap:TiledMap, _layer:String, _position_x:Float, _position_y:Float, _property:String ) : Bool {
 
             var tile_coordinates = _tilemap.tile_coord(_position_x, _position_y);
             if(_tilemap.inside(Std.int(tile_coordinates.x), Std.int(tile_coordinates.y))) {
